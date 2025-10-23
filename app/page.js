@@ -1,4 +1,5 @@
 import Banner from "./components/banner/Banner";
+import OurValues from "./components/ourvalues/OurValues";
 import WeDo from "./components/wedo/WeDo";
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <>
       <Banner />
       <WeDo />
+      <OurValues />
     </>
   );
 }
