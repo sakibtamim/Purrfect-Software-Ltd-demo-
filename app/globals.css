@@ -24,6 +24,14 @@
   font-family: "Nexa";
   src: url("/fonts/Nexa-Heavy.ttf") format("truetype");
 }
+@font-face {
+  font-family: "NexaRe";
+  src: url("/fonts/Nexa-Book.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Avenir";
+  src: url("/fonts/Avenir\ LT\ Std\ 95\ Black.otf") format("opentype");
+}
 
 @theme {
   --font-inter: "Inter", sans-serif;
