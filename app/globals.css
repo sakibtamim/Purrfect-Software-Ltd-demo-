@@ -22,7 +22,7 @@
 
 @font-face {
   font-family: "Nexa";
-  src: url("/public/fonts/Nexa-Regular.ttf") format("truetype");
+  src: url("/fonts/Nexa-Heavy.ttf") format("truetype");
 }
 
 @theme {

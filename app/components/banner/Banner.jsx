@@ -15,7 +15,7 @@ const Banner = () => {
               </p>
             </div>
             <div className="">
-              <h1 className="text-[48px] text-[#1A0D7C] font-[Nexa] font-extrabold pr-31 pb-[51px]">
+              <h1 className="w-[90%] text-[48px] text-[#1A0D7C] font-[Nexa] font-extrabold  pb-[51px]">
                 <span className="text-[#7D97F4]">
                   Purrfect Software Solutions:
                 </span>{" "}
