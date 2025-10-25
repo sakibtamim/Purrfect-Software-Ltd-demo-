@@ -4,14 +4,14 @@ import Image from "next/image";
 
 const OurVision = () => {
   return (
-    <section className="mt-[130px]  bg-[#FCF9FF]">
+    <section className="lg:mt-[130px] mt-[70px]  bg-[#FCF9FF]">
       <Container>
-        <div className="pl-[109px] py-16 relative">
-          <div className="w-[40%] ">
-            <h2 className="text-[34px] text-[#1A0D7C] font-[Nexa] font-bold pb-8">
+        <div className="lg:pl-[109px] py-16 lg:relative ">
+          <div className="lg:w-[40%] w-full lg:pb-0 pb-8">
+            <h2 className="lg:text-[34px] text-[26px] text-[#1A0D7C] font-[Nexa] font-bold lg:pb-8 pb-6">
               Our vision
             </h2>
-            <p className=" text-[16px] text-[#0E101A] font-inter font-normal">
+            <p className=" lg:text-[16px] text-[14px] text-[#0E101A] font-inter font-normal">
               Our vision is to be a globally recognized leader in software
               development, driving innovation and creating transformative
               solutions that shape the future of technology. We strive to
@@ -25,12 +25,13 @@ const OurVision = () => {
               possibilities of software development in the new world.
             </p>
           </div>
-          <div className="absolute top-16 left-[685px]">
+          <div className="lg:absolute top-16 left-[685px]">
             <Image
               src="/ourvision.png"
               alt="Our vision"
               width={414}
               height={515}
+              className="lg:w-fit lg:h-fit h-[80%] w-[70%] object-contain"
             />
           </div>
         </div>

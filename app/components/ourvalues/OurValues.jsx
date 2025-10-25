@@ -17,7 +17,7 @@ const OurValues = () => {
             alt="Our values"
             height={471}
             width={1180}
-            className="lg:w-fit lg:h-fit h-[70%] w-[90%]"
+            className="lg:w-fit lg:h-fit h-[70%] w-[90%] object-contain"
           />
         </div>
       </Container>
