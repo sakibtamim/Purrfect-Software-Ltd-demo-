@@ -3,7 +3,7 @@ import React from "react";
 
 const Testimonial = () => {
   return (
-    <section className="pb-[97px]">
+    <section className="lg:pb-[97px] pb-10">
       <Image
         src="/testimonial.png"
         alt="Testimonial"
