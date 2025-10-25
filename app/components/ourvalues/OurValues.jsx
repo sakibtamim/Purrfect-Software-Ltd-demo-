@@ -4,10 +4,10 @@ import Image from "next/image";
 
 const OurValues = () => {
   return (
-    <section className="pt-[58px] pb-32 bg-linear-to-r from-[#EEF4F4] to-[#EEEEEE]">
+    <section className="lg:pt-[58px] pt-9 lg:pb-32 pb-16 bg-linear-to-r from-[#EEF4F4] to-[#EEEEEE]">
       <Container>
-        <div className="pb-[137px] text-center">
-          <h2 className="text-[36px] text-[#1A0E7D] font-[Nexa] font-extrabold capitalize">
+        <div className="lg:pb-[137px] pb-10 text-center">
+          <h2 className="lg:text-[36px] text-[24px] text-[#1A0E7D] font-[Nexa] font-extrabold capitalize">
             our values
           </h2>
         </div>
@@ -17,6 +17,7 @@ const OurValues = () => {
             alt="Our values"
             height={471}
             width={1180}
+            className="lg:w-fit lg:h-fit h-[70%] w-[90%]"
           />
         </div>
       </Container>
